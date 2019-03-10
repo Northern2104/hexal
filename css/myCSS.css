@@ -115,7 +115,7 @@ footer hr{
 	border-color: rgb(43, 43, 43);
 }
 #contacts p{
-	display: block;
+	display: inline-block;
 	font: normal 12px 'Maven Pro', sans serif;
 	color: #fff;
 }
