@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background: #323232;
+	text-align: center;
+	position: relative;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	font: bold 10px 'Lato', sans serif;
+	color: rgb(255,255,255);
+	padding: 35px 12px 25px;
+}
+span a{
+	color: rgb(46, 179, 152);
+}
+.logo{
+    padding-right: 115px
+   } 
+nav img{
+	position: absolute;
+	left: 50%;
+	margin-left: -32px;
+	top: 15px;
+	z-index: 100;
+}
+#logo{
+	display: inline-block;
+	background: url(../img/PointyThingy.png) no-repeat;
+	background-size: contain;
+	width: 90px;
+	height: 89px;
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	margin-left: -45px;
+}
+#projects{
+	padding: 80px 0;
+	text-align: center;
+}
+
+#projects img{
+	margin-bottom:-35px;
+	margin-right: 20px;
+}
+#aboutMe{
+	background: rgb(46, 179, 152);
+	padding: 10px 100px;
+}
+#aboutMe .container{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-column-gap: 20px;
+	border-left: 1px solid rgb(33, 157, 132);
+	border-right: 1px solid rgb(33, 157, 132);
+	padding: 70px 20px;
+}
+#aboutMe .container img{
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+#aboutMe h2{
+	font: normal 32px 'Maven Pro', sans serif;
+	color: #fff;
+}
+#aboutMe h3{
+	font: normal 18px 'Maven Pro', sans serif;
+	color: #20816d;
+	padding-bottom: 20px;
+}
+#aboutMe p{
+	font: normal 12px 'Maven Pro', sans serif;
+	color: #fff;
+	text-align: justify;
+	line-height: 1.4;
+}
+.social{
+	grid-column: 2 / span 1;
+	margin-left: auto;
+	margin-right: 0;
+}
+.belowAboutMe{
+	padding: 
+}
+footer{
+	background: rgb(50, 50, 50);
+	padding: 10px 30px;
+	
+}
+footer .container{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 20px;
+	padding: 0 90px;
+}
+footer hr{
+	border-color: rgb(43, 43, 43);
+}
+#contacts p{
+	display: inline-block;
+	font: normal 12px 'Maven Pro', sans serif;
+	color: #fff;
+}
+#contacts p:first-child{
+	padding:137px 0 70px;
+}
+#contacts p span{
+	font-weight: bold;
+}
+ 
+.location{
+	padding-left: 5px;
+	padding-right:15px;
+}
+.phone{
+padding-right: 15px;
+padding-left: 2px;
+}
+.mail{
+	padding-right: 15px;
+}
+.copyright{
+	background: #222;
+	margin-top: 60px; 
+}
+.rights{
+	padding: 0;
+	background: #222;
+}
+.rights p{
+	padding: 15px;
+	font: normal 12px 'Maven Pro', sans serif;
+	color: #454545;
+}
+form h2{
+	font: normal 30px 'Maven Pro', sans serif;
+	color: #e0e0e0;
+	padding-top: 60px;
+}
+form h3{
+	font: normal 18px 'Maven Pro', sans serif;
+	color: #bebebe;
+	padding-bottom: 25px;
+	width: 100%;
+}
+form input, textarea{
+	width: 100%;
+	background: #454545;
+	border: none;
+	margin-bottom: 15px;
+	font: normal 12px 'Lato', sans-serif;
+	padding: 15px; 
+}
+form textarea::-webkit-input-placeholder {
+	color: rgb(190, 190, 190);
+}
+form input::-webkit-input-placeholder {
+	color: rgb(190, 190, 190);
+}
+form .btn{
+	display: block;
+	width: 90px;
+	margin-right: 0;
+	margin-left: auto;
+	background: rgb(46, 179, 152);
+	font: normal 12px 'Lato', sans-serif;
+	color: rgb(215, 252, 245);
+	margin-bottom: 55px;
+}
