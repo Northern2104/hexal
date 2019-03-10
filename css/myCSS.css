@@ -38,13 +38,27 @@ nav img{
 	margin-left: -45px;
 }
 #projects{
-	padding: 80px 0;
 	text-align: center;
 }
-
+#projects .HrContainer{
+	margin: 10px 0 80px;
+	padding: 0 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 140px;
+}
+#projects .HrContainer hr{
+	width: 100%;
+	border-color: rgb(228, 233, 235);
+}
 #projects img{
-	margin-bottom:-35px;
-	margin-right: 20px;
+	margin:0 15px -35px;
+	max-width: 100%;
+    height: auto;
+}
+#projects .bottomHr{
+	margin: 70px 30px 10px;
+	border-color: rgb(228, 233, 235);
 }
 #aboutMe{
 	background: rgb(46, 179, 152);
@@ -101,7 +115,7 @@ footer hr{
 	border-color: rgb(43, 43, 43);
 }
 #contacts p{
-	display: inline-block;
+	display: block;
 	font: normal 12px 'Maven Pro', sans serif;
 	color: #fff;
 }
